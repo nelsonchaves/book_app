@@ -1,8 +1,16 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Lesson 5 Hands On
     </ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="openMenu()">
+        <ion-icon name="menu"></ion-icon>
+      </ion-button>
+      <ion-button (click)="toggleSearchBar()">
+        <ion-icon name="search"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
@@ -12,9 +20,13 @@
       <ion-title size="large">Blank</ion-title>
     </ion-toolbar>
   </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <a href="table-of-contents">
+    <div id="container">
+      <h6>The</h6>
+      <h1>Daily Wisdom</h1>
+      <h3>Book</h3>
+      <img src="https://images.unsplash.com/photo-1566545455366-bcae28fd3929?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1656&q=80" />
+      <h3>Click anywhere to start!</h3>
+    </div>
+    </a>
 </ion-content>
